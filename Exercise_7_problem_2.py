@@ -62,12 +62,13 @@ plot.set_ylabel('Temperature (Celsius)')
 plot.grid()
 
 # Set output file name
-outputfp = "temp_line_plot.png"
-plt.savefig(outputfp)
-plt.show()
+
 
 # Save plot as image
 # YOUR CODE HERE 4
+outputfp = "temp_line_plot.png"
+plt.savefig(outputfp)
+plt.show()
 
 import os
 
